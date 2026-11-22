@@ -1,0 +1,44 @@
+ INFO     Setting up corpus information...                                      
+ INFO     Loading corpus from source files...                                   
+   6% ━━                                   6/100  [ 0:00:01 < -:--:-- , ? it/s ]
+ INFO     Found 2 speakers across 6 files, average number of utterances per     
+          speaker: 3.0                                                          
+ INFO     Initializing multiprocessing jobs...                                  
+ WARNING  Number of jobs was specified as 4, but due to only having 2 speakers, 
+          MFA will only use 2 jobs. Use the --single_speaker flag if you would  
+          like to split utterances across jobs regardless of their speaker.     
+ INFO     Normalizing text...                                                   
+ 100% ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6/6  [ 0:00:01 < 0:00:00 , ? it/s ]
+ INFO     Generating MFCCs...                                                   
+ 100% ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6/6  [ 0:00:01 < 0:00:00 , ? it/s ]
+ INFO     Calculating CMVN...                                                   
+ INFO     Generating final features...                                          
+ 100% ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6/6  [ 0:00:01 < 0:00:00 , ? it/s ]
+ INFO     Creating corpus split...                                              
+ 100% ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6/6  [ 0:00:01 < 0:00:00 , ? it/s ]
+ INFO     Creating corpus split...                                              
+ 100% ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6/6  [ 0:00:01 < 0:00:00 , ? it/s ]
+ INFO     Corpus                                                                
+ INFO     6 sound files                                                         
+ INFO     6 text files                                                          
+ INFO     2 speakers                                                            
+ INFO     6 utterances                                                          
+ INFO     97.163 seconds total duration                                         
+ INFO     Sound file read errors                                                
+ INFO     There were no issues reading sound files.                             
+ INFO     Feature generation                                                    
+ INFO     There were no utterances missing features.                            
+ INFO     Files without transcriptions                                          
+ INFO     There were no sound files missing transcriptions.                     
+ INFO     Transcriptions without sound files                                    
+ INFO     There were no transcription files missing sound files.                
+ INFO     Dictionary                                                            
+ INFO     Out of vocabulary words                                               
+ WARNING  23 OOV word types                                                     
+ WARNING  57 total OOV tokens                                                   
+ WARNING  For a full list of the word types, please see:                        
+          /kaggle/working/mfa_project/outputs/oovs/english_us_mfa/oovs_found_eng
+          lish_us_mfa.txt. For a by-utterance breakdown of missing words, see:  
+          /kaggle/working/mfa_project/outputs/oovs/english_us_mfa/utterance_oovs
+          .txt                                                                  
+ INFO     Done! Everything took 19.308 seconds                                  

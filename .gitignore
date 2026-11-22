@@ -1,0 +1,6 @@
+data/
+mfa_corpus/
+mfa_root/
+tools/
+outputs.zip
+__pycache__/

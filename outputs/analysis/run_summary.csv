@@ -1,0 +1,5 @@
+run,files_aligned,files_missing,words,unknown_words,phones,mean_phone_ms,short_phones,long_phones,mean_speech_log_likelihood
+A_arpa_base,6,0,244,0,1033,78.0,79,5,-47.695322725484296
+B_arpa_g2p,6,0,244,0,1063,75.8,81,0,-47.75537271655518
+C_mfa_g2p,6,0,244,0,1045,82.1,96,2,-44.771450367770434
+D_selftrained,6,0,244,0,1054,54.1,735,15,
